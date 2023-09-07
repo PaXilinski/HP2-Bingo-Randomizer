@@ -1,0 +1,124 @@
+﻿<Window x:Class="BingoRandomizer.Windows.SettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingoRandomizer.Windows"
+        mc:Ignorable="d"
+        Title="Bingo Bongo Settings" 
+        Height="200" Width="250"
+        Background="Transparent"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        >
+
+    <Border
+        Background="#222831"    
+    >
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+
+            <Rectangle
+                Grid.ColumnSpan="4"
+                Fill="#393E46" 
+                MouseLeftButtonDown="Rectangle_MouseLeftButtonDown"
+                
+            />
+
+            <Button 
+                x:Name="CloseButton"
+                Grid.Row="0"
+                Grid.Column="3"
+                Width="30"
+                Height="25"
+                Style="{StaticResource CloseButtonTheme}" 
+                Click="CloseButton_Click" 
+            />
+            
+            <Button 
+                x:Name="AcceptButton"
+                Grid.Row="3"
+                Grid.Column="2"
+                Width="75"
+                Height="20"
+                Content="Accept" 
+                Click="AcceptButton_Click"
+                Style="{StaticResource OptionsDialogButtonTheme}"
+            />
+            <Button 
+                x:Name="ResetButton"
+                Grid.Row="3"
+                Grid.Column="1"
+                Width="75"
+                Height="20"
+                Content="Reset Board" 
+                Click="ResetButton_Click"
+                Style="{StaticResource OptionsDialogButtonTheme}" 
+            />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="1"
+                Height="25"
+                Width="80"
+                Content="Refresh rate: "
+                HorizontalContentAlignment="Center"
+                FontWeight="Bold"
+                Foreground="#EEEEEE"
+            />
+            <Label
+                Grid.Row="2"
+                Grid.Column="1"
+                Height="25"
+                Width="80"
+                Content="RNG Factor:  "
+                HorizontalContentAlignment="Center"
+                FontWeight="Bold"
+                Foreground="#EEEEEE"
+            />
+
+            <TextBox 
+                x:Name="rateText"
+                Grid.Row="1"
+                Grid.Column="2"
+                Height="25"
+                Width="80"
+                Background="Transparent"
+                BorderThickness="2"
+                BorderBrush="#393E46"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Foreground="#EEEEEE"
+            />
+            <TextBox 
+                x:Name="factorText"
+                Grid.Row="2"
+                Grid.Column="2"
+                Height="25"
+                Width="80"
+                Background="Transparent"
+                BorderThickness="2"
+                BorderBrush="#393E46"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Foreground="#EEEEEE"
+            />
+
+        </Grid>
+        
+    </Border>
+    
+</Window>

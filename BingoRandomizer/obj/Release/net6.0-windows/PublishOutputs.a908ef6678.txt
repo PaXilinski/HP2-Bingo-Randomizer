@@ -1,0 +1,6 @@
+C:\Users\fabia\Desktop\BingoBongoRando 3_0\Resources\ListOfGoals.txt
+C:\Users\fabia\Desktop\BingoBongoRando 3_0\BingoRandomizer.exe
+C:\Users\fabia\Desktop\BingoBongoRando 3_0\BingoRandomizer.dll
+C:\Users\fabia\Desktop\BingoBongoRando 3_0\BingoRandomizer.deps.json
+C:\Users\fabia\Desktop\BingoBongoRando 3_0\BingoRandomizer.runtimeconfig.json
+C:\Users\fabia\Desktop\BingoBongoRando 3_0\BingoRandomizer.pdb
