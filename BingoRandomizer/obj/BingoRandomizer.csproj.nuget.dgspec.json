@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabia\\source\\repos\\BingoRandomizer\\BingoRandomizer\\BingoRandomizer.csproj": {}
+    "C:\\Users\\fabia\\Documents\\GitHub\\HP2-Bingo-Randomizer\\BingoRandomizer\\BingoRandomizer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabia\\source\\repos\\BingoRandomizer\\BingoRandomizer\\BingoRandomizer.csproj": {
+    "C:\\Users\\fabia\\Documents\\GitHub\\HP2-Bingo-Randomizer\\BingoRandomizer\\BingoRandomizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabia\\source\\repos\\BingoRandomizer\\BingoRandomizer\\BingoRandomizer.csproj",
+        "projectUniqueName": "C:\\Users\\fabia\\Documents\\GitHub\\HP2-Bingo-Randomizer\\BingoRandomizer\\BingoRandomizer.csproj",
         "projectName": "BingoRandomizer",
-        "projectPath": "C:\\Users\\fabia\\source\\repos\\BingoRandomizer\\BingoRandomizer\\BingoRandomizer.csproj",
+        "projectPath": "C:\\Users\\fabia\\Documents\\GitHub\\HP2-Bingo-Randomizer\\BingoRandomizer\\BingoRandomizer.csproj",
         "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabia\\source\\repos\\BingoRandomizer\\BingoRandomizer\\obj\\",
+        "outputPath": "C:\\Users\\fabia\\Documents\\GitHub\\HP2-Bingo-Randomizer\\BingoRandomizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
